@@ -1,0 +1,28 @@
+{
+    "name": "jacobemerick/goodreads-client",
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "codeclimate/php-test-reporter": "^0.2.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jacobemerick",
+            "email": "jpemeric@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jacobemerick\\GoodreadsClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jacobemerick\\GoodreadsClient\\": "src/"
+        }
+    }
+}
